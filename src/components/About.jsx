@@ -3,7 +3,7 @@ import { about, interest } from "../data";
 
 function About() {
   return (
-    <div className="about__us section" id="about">
+    <div className="about__us section" style={{backgroundImage: `url('./assets/images/about/about-bg.png')`}} id="about">
       <div className="container">
         <div className="row align-items-center ">
           <div className="col-lg-4">
