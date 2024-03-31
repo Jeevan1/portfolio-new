@@ -1234,6 +1234,19 @@ header
     }
 
     @media(max-width:1000px) {
+        .stiky{
+            position: sticky;
+            top: 100px;
+            background-color: #fff;
+            overflow: hidden;
+            z-index: 999;
+            border-bottom: 3px solid rgba($color: $cyan, $alpha: 0.3);
+            .section__heading{
+                padding-top: 20px;
+                
+            }
+        }
+        
         .right__content {
             margin-left: 0;
 
@@ -1291,7 +1304,13 @@ header
             display: flex;
             justify-content: center;
             img{
-                height: 320px;
+            }
+           }
+           @media(max-width:1000px) {
+            display: flex;
+            justify-content: center;
+            img{
+                display: none;
             }
            }
         }

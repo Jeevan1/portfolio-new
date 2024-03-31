@@ -4,8 +4,8 @@ function Projects() {
   return (
     <div id="projects" className=" projects section">
       <div className="container">
-        <div className="row" data-aos="fade-down">
-          <div className="col-lg-6 col-sm-12">
+        <div className="row stiky" data-aos="fade-down">
+          <div className="col-lg-6 col-sm-12 position-relative">
             <div className="section__heading">
               <h3>
                 My <span>Projects</span>
@@ -24,7 +24,7 @@ function Projects() {
           </div>
         </div>
         <div className="row" data-aos="fade-up">
-          <div className="col-lg-6 ">
+          <div className="col-lg-6 position-relative">
             <div className="left__image">
               <img src="./assets/images/projects/oneup.png" alt="img" />
               <div className="info">
