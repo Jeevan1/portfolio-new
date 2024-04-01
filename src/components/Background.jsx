@@ -25,7 +25,7 @@ function Background() {
               </div>
               <div className="background__items">
                 {education.map((education, i) => (
-                  <div className="background__item">
+                  <div className="background__item" data-aos="fade-up">
                     <div className="shadow px-4 py-3 ms-5" key={i}>
                       <p>{education.durations}</p>
                       <h5>{education.title} (<small>{education.degree}</small>)</h5>
@@ -47,7 +47,7 @@ function Background() {
               </div>
               <div className="background__items">
                 {experience.map((experience, i) => (
-                  <div className="background__item">
+                  <div className="background__item" data-aos="fade-up">
                     <div className=" shadow px-4 py-3 ms-5" key={i}>
                       <p>{experience.durations}</p>
                       <h5>{experience.title} (<small>{experience.degree}</small>)</h5>

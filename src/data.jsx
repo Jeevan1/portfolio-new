@@ -42,25 +42,29 @@ export const about = [
         id:1,
         title: "Name",
         detail: 'Jeevan Shrestha',
-        icon: 'fa-user',
+        icon: 'fa-github',
+        link: 'https://github.com/Jeevan1',
     },
     {
         id:2,
         title: "Email",
         detail: 'shresthaj1986@gmail.com',
         icon: 'fa-envelope',
+        link: ''
     },
     {
         id:3,
         title: "Phone",
         detail: '+91 9876543210',
         icon: 'fa-phone',
+        link: ''
     },
     {
         id:4,
-        title: "Address",
+        title: "Linkdn",
         detail: 'Kathmandu, NP',
-        icon: 'fa-map-marker',
+        icon: 'fa-linkedin',
+        link: ''
     }
 ];
 
@@ -187,27 +191,27 @@ export const testimonials = [
         name: 'Arjun Jhukal',
         image: './assets/images/testimonial/user1.png',
         designation: 'Frontend Developer',
-        content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.',
+        content: `Jeevan Shrestha consistently impressed us with their innovative approach to front-end development. Their attention to detail and commitment to excellence set them apart.`,
     },
     {
         id: 2,
         name: 'Harish Bhatt',
         image: './assets/images/testimonial/user2.png',
         designation: 'Fullstack Developer',
-        content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.',
+        content: `Working with Jeevan Shrestha was a delightful experience. Their ability to create visually appealing and user-friendly interfaces exceeded our expectations.`,
     },
     {
         id: 3,
         name: 'Rajendra Thapa',
         image: './assets/images/testimonial/user1.png',
         designation: 'UI/UX Developer',
-        content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.',
+        content: `Jeevan Shrestha is a highly skilled developer who always goes above and beyond to deliver outstanding results. It was a pleasure collaborating with them.`,
     },
     {
         id: 5,
         name: 'Bijay Shrestha',
         image: './assets/images/testimonial/user2.png',
         designation: 'UI/UX Developer',
-        content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.',
+        content: `I was thoroughly impressed by Jeevan Shrestha's professionalism and expertise. They have a natural talent for transforming design concepts into functional interfaces.`,
     }
 ]

@@ -11,26 +11,21 @@ function About() {
               <img src="./assets/images/about/about.png" alt="about img" />
             </div>
           </div>
-          <div className="col-lg-8 ">
-            <div className="right__services">
+          <div className="col-lg-8 " data-aos="fade-right">
+            <div className="right__services" >
               <div class="section__heading">
                 <h2>About Me</h2>
                 <p>
-                  Passionate self-taught developer with four months of
-                  internship experience, dedicated to crafting visually
-                  appealing and functional user interfaces. Seeking
-                  opportunities to apply my front-end skills in a dynamic
-                  organization, with a focus on innovative solutions and
-                  continuous learning.
+                Self-taught developer with internship experience, specializing in front-end development. Committed to creating visually stunning and functional user interfaces. Seeking opportunities for growth and innovation in a dynamic environment.
                 </p>
               </div>
               <div className="about__detail">
                 <div className="contact ">
                   {about.map((item, index) => (
                     <div key={index} className="d-flex justify-content-center my-1 me-3 p-1">
-                      <div className="icon">
+                      <a href={item.link} target="_self" className="icon">
                         <i className={`fa ${item.icon}`}></i>
-                      </div>
+                      </a>
                     </div>
                     // <div key={index} className="col-lg-12 my-1">
                     //   <div className="row">

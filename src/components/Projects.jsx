@@ -23,17 +23,15 @@ function Projects() {
             </div>
           </div>
         </div> */}
-        <div className="row" data-aos="fade-up">
+        <div className="row" >
           <div className="col-lg-6 position-relative">
-            <div className="left__content">
+            <div className="left__content" data-aos="fade-right">
             <div className="section__heading stiky">
               <h3>
                 My <span>Projects</span>
               </h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Distinctio laborum vero iusto saepe sint obcaecati iste
-                reprehenderit libero autem culpa.
+              A showcase of my diverse projects, all built with React's cutting-edge capabilities. Witness the power of React in action as it brings web applications to life with interactivity and elegance. 
               </p>
             </div>
             <div className="">
@@ -75,13 +73,13 @@ function Projects() {
             </div>
             </div>
           </div>
-          <div className="col-lg-6">
-            <div className="section__image">
+          <div className="col-lg-6" >
+            <div className="section__image" data-aos="fade-up">
               <img src="./assets/images/projects/project-bg.png" alt="img" />
             </div>
             <div className="right__content">
               <ul>
-                <li>
+                <li data-aos="fade-up">
                   <div className="top__image border">
                     <a href="#">
                       <img
@@ -111,7 +109,7 @@ function Projects() {
                     </div>
                   </div>
                 </li>
-                <li>
+                <li data-aos="fade-up">
                   <div className="top__image border">
                     <a href="#">
                       <img
@@ -141,7 +139,7 @@ function Projects() {
                     </div>
                   </div>
                 </li>
-                <li>
+                <li data-aos="fade-up">
                   <div className="top__image border">
                     <a href="#">
                       <img
