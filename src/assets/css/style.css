@@ -110,9 +110,6 @@ body {
   -ms-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  width: 100vw;
-  overflow-x: hidden;
-  box-sizing: border-box;
 }
 
 a {
@@ -1016,7 +1013,7 @@ header
   margin-bottom: 120px;
 }
 .projects .right__content ul li .bottom__content {
-  padding: 30px;
+  padding: 0px 30px 20px 30px;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
   position: absolute;
@@ -1024,16 +1021,6 @@ header
   bottom: -50px;
   background-color: white;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
-}
-.projects .right__content ul li .bottom__content span {
-  font-size: 15px;
-  color: #afafaf;
-  font-weight: 400;
-}
-.projects .right__content ul li .bottom__content span i {
-  font-size: 16px;
-  color: #fe3f40;
-  margin-right: 8px;
 }
 .projects .right__content ul li .bottom__content h4 {
   font-size: 20px;
@@ -1043,6 +1030,10 @@ header
 }
 .projects .right__content ul li .bottom__content p {
   color: #2a2a2a;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 .projects .right__content ul li .top__image {
   height: 350px;

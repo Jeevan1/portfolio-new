@@ -113,9 +113,7 @@ body {
     -ms-text-size-adjust: 100%;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    width: 100vw;
-    overflow-x: hidden;
-    box-sizing: border-box;
+    
 }
 
 a {
@@ -176,6 +174,8 @@ h4 {
 
 i {
     cursor: pointer;
+}
+.section{
 }
 
 .section__heading {
@@ -1214,7 +1214,7 @@ header
 
             .bottom__content {
                 // margin-right: 45px;
-                padding: 30px;
+                padding: 0px 30px 20px 30px;
                 border-bottom-left-radius: 20px;
                 border-bottom-right-radius: 20px;
                 position: absolute;
@@ -1223,17 +1223,7 @@ header
                 background-color: rgba($color: #fff, $alpha: 1);
                 box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
 
-                span {
-                    font-size: 15px;
-                    color: #afafaf;
-                    font-weight: 400;
-
-                    i {
-                        font-size: 16px;
-                        color: $orange;
-                        margin-right: 8px;
-                    }
-                }
+                
 
                 h4 {
                     font-size: 20px;
@@ -1244,6 +1234,7 @@ header
 
                 p {
                     color: $text;
+                    @include lineClimp(3, vertical)
                 }
             }
 

@@ -9,6 +9,8 @@ function App() {
     Aos.init({
       delay: 200,
       offset: 100,
+      easing: 'ease-in-out', 
+      once: true
     });
   },[]);
   return (

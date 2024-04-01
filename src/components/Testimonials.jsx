@@ -3,7 +3,7 @@ import { testimonials } from "../data";
 
 function Testimonials() {
   return (
-    <div className="our__portfolio section" id="portfolio">
+    <div className="our__portfolio " id="portfolio">
       <div className="container">
         <div className="row justify-content-center align-i">
           <div className="col-lg-6">
