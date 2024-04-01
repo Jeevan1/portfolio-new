@@ -339,7 +339,6 @@ header
     cursor: pointer;
   }
   .header__area .main__nav .mobile__nav .mobile__menu {
-    display: none;
     text-align: center;
     padding: 0;
     margin: 0;
@@ -516,7 +515,7 @@ header
 .about__us .right__services {
   margin-left: 70px;
   color: #fff;
-  padding-bottom: 120px;
+  padding-bottom: 140px;
 }
 .about__us .right__services .section__heading h2 {
   margin-bottom: 20px;
@@ -533,8 +532,9 @@ header
 }
 .about__us .right__services .about__detail .contact > div {
   display: inline;
-  border: 3px solid #fff;
+  border: 4px solid #fff;
   border-radius: 50%;
+  background-color: #03a4ed;
 }
 .about__us .right__services .about__detail .icon {
   width: 80px;
@@ -549,6 +549,9 @@ header
   font-weight: 700;
   color: #fe3f40;
   transition: 0.3s;
+}
+.about__us .right__services .about__detail .icon i {
+  color: #03a4ed;
 }
 .about__us .right__services .about__detail .interest h5 {
   font-weight: 700;
@@ -567,13 +570,19 @@ header
   .about__us .right__services .section__heading p {
     margin-bottom: 0;
   }
+  .about__us .right__services .about__detail {
+    padding-bottom: 30px;
+  }
   .about__us .right__services .about__detail .contact {
     margin-bottom: 20px;
     justify-content: center;
   }
   .about__us .right__services .about__detail .contact .icon {
-    height: 60px;
-    width: 60px;
+    height: 40px;
+    width: 40px;
+  }
+  .about__us .right__services .about__detail .contact .icon i {
+    font-size: 20px;
   }
   .about__us .right__services .interest {
     text-align: center;
@@ -870,6 +879,9 @@ header
   padding-top: 120px;
   padding-bottom: 60px;
 }
+.projects .section__heading {
+  margin-bottom: 50px;
+}
 .projects .section__heading h3 {
   margin-right: 180px;
   text-align: left;
@@ -890,73 +902,73 @@ header
     display: none;
   }
 }
-.projects .left__image {
+.projects .left__content {
   position: sticky;
   width: 100%;
   top: 100px;
   padding-top: 20px;
 }
-.projects .left__image img {
+.projects .left__content img {
   max-height: 430px;
   width: 100%;
   border-radius: 20px;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
 }
-.projects .left__image .info {
+.projects .left__content .info {
   position: relative;
 }
-.projects .left__image .info .inner__content {
+.projects .left__content .info .inner__content {
   background-color: #fff;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
   border-radius: 20px;
   margin-right: 60px;
   position: relative;
   top: -70px;
-  padding: 30px;
+  padding: 20px 30px;
 }
-.projects .left__image .info .inner__content ul {
+.projects .left__content .info .inner__content ul {
   padding-left: 0;
 }
-.projects .left__image .info .inner__content ul li {
+.projects .left__content .info .inner__content ul li {
   display: inline-block;
   font-size: 15px;
   color: #2a2a2a;
   font-weight: 300;
   margin-right: 30px;
 }
-.projects .left__image .info .inner__content ul li:last-child {
+.projects .left__content .info .inner__content ul li:last-child {
   margin-right: 0;
 }
-.projects .left__image .info .inner__content ul li i {
+.projects .left__content .info .inner__content ul li i {
   color: #fe3f40;
   font-size: 160x;
   margin-right: 8px;
 }
-.projects .left__image .info .inner__content a h4 {
+.projects .left__content .info .inner__content a h4 {
   font-size: 20px;
   font-weight: 700;
   color: #2a2a2a;
-  margin: 20px 0px 15px 0px;
+  margin-bottom: 20px;
 }
-.projects .left__image .info .inner__content .more {
+.projects .left__content .info .inner__content .more {
   position: absolute;
   bottom: -80px;
   left: 0;
 }
 @media (max-width: 1000px) {
-  .projects .left__image .info {
+  .projects .left__content .info {
     border-bottom: 1px solid rgb(238, 229, 229);
   }
-  .projects .left__image .info .inner__content {
+  .projects .left__content .info .inner__content {
     position: relative;
     margin-right: 0;
     top: -50px;
   }
-  .projects .left__image .info .inner__content .cyan__button {
+  .projects .left__content .info .inner__content .cyan__button {
     position: relative;
     bottom: 0;
   }
-  .projects .left__image .info .inner__content .more {
+  .projects .left__content .info .inner__content .more {
     bottom: -15px;
   }
 }
@@ -1025,7 +1037,7 @@ header
     top: 100px;
     background-color: #fff;
     overflow: hidden;
-    z-index: 999;
+    z-index: 1;
     border-bottom: 3px solid rgba(3, 164, 237, 0.3);
   }
   .projects .stiky .section__heading {
@@ -1071,8 +1083,7 @@ header
   margin-top: 20px;
 }
 .contact__us .left__content .left__image img {
-  height: 350px;
-  width: 100%;
+  height: 400px;
 }
 @media (max-width: 1000px) {
   .contact__us .left__content .left__image {
@@ -1124,4 +1135,26 @@ header
 }
 .footer span a {
   color: #fe3f40;
+}
+
+@media (max-width: 767px) {
+  .section {
+    padding-top: 120px;
+    padding-bottom: 0;
+  }
+  .main__banner {
+    padding-top: 160px;
+  }
+  .about__us {
+    padding-bottom: 60px;
+  }
+  .our__skills {
+    padding-top: 80px;
+  }
+  .contact__us {
+    padding-bottom: 60px;
+  }
+  .contact__us .left__content {
+    margin: 0;
+  }
 }

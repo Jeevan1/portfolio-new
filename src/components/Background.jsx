@@ -3,7 +3,7 @@ import { education, experience } from "../data";
 
 function Background() {
   return (
-    <div class="background section" id="background">
+    <div class="background section" id="education">
       <div class="container">
         <div class="row justify-content-center align-i">
           <div class="col-lg-6">

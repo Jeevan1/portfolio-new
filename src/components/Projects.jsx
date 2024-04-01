@@ -4,7 +4,7 @@ function Projects() {
   return (
     <div id="projects" className=" projects section">
       <div className="container">
-        <div className="row stiky" data-aos="fade-down">
+        {/* <div className="row stiky" data-aos="fade-down">
           <div className="col-lg-6 col-sm-12 position-relative">
             <div className="section__heading">
               <h3>
@@ -22,14 +22,25 @@ function Projects() {
               <img src="./assets/images/projects/project-bg.png" alt="img" />
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="row" data-aos="fade-up">
           <div className="col-lg-6 position-relative">
-            <div className="left__image">
+            <div className="left__content">
+            <div className="section__heading stiky">
+              <h3>
+                My <span>Projects</span>
+              </h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Distinctio laborum vero iusto saepe sint obcaecati iste
+                reprehenderit libero autem culpa.
+              </p>
+            </div>
+            <div className="">
               <img src="./assets/images/projects/oneup.png" alt="img" />
               <div className="info">
                 <div className="inner__content">
-                  <ul className=" ">
+                  {/* <ul className=" ">
                     <li>
                       <i className="fa fa-calendar"></i> 23 May 2023
                     </li>
@@ -39,7 +50,7 @@ function Projects() {
                     <li>
                       <i className="fa fa-folder"></i> 23 Jan 2020
                     </li>
-                  </ul>
+                  </ul> */}
                   <a href="#">
                     <h4>SEO Agency &amp; Digital Marketing</h4>
                   </a>
@@ -62,8 +73,12 @@ function Projects() {
                 </div>
               </div>
             </div>
+            </div>
           </div>
           <div className="col-lg-6">
+            <div className="section__image">
+              <img src="./assets/images/projects/project-bg.png" alt="img" />
+            </div>
             <div className="right__content">
               <ul>
                 <li>
@@ -87,13 +102,13 @@ function Projects() {
                       Nostrum...
                     </p>
                     <div className="links d-flex gap-2 mt-3">
-                    <div className="  cyan__button">
-                      <a href="#">Watch Live</a>
+                      <div className="  cyan__button">
+                        <a href="#">Watch Live</a>
+                      </div>
+                      <div className="red__button">
+                        <a href="#">Voew Code</a>
+                      </div>
                     </div>
-                    <div className="red__button">
-                      <a href="#">Voew Code</a>
-                    </div>
-                  </div>
                   </div>
                 </li>
                 <li>
@@ -117,13 +132,13 @@ function Projects() {
                       Nostrum...
                     </p>
                     <div className="links d-flex gap-2 mt-3">
-                    <div className="  cyan__button">
-                      <a href="#">Watch Live</a>
+                      <div className="  cyan__button">
+                        <a href="#">Watch Live</a>
+                      </div>
+                      <div className="red__button">
+                        <a href="#">Voew Code</a>
+                      </div>
                     </div>
-                    <div className="red__button">
-                      <a href="#">Voew Code</a>
-                    </div>
-                  </div>
                   </div>
                 </li>
                 <li>
@@ -147,13 +162,13 @@ function Projects() {
                       Nostrum...
                     </p>
                     <div className="links d-flex gap-2 mt-3">
-                    <div className="  cyan__button">
-                      <a href="#">Watch Live</a>
+                      <div className="  cyan__button">
+                        <a href="#">Watch Live</a>
+                      </div>
+                      <div className="red__button">
+                        <a href="#">Voew Code</a>
+                      </div>
                     </div>
-                    <div className="red__button">
-                      <a href="#">Voew Code</a>
-                    </div>
-                  </div>
                   </div>
                 </li>
               </ul>

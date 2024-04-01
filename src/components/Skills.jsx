@@ -3,7 +3,7 @@ import { skills } from "../data";
 
 function Skills() {
   return (
-    <div id="skill" className="our__skills section">
+    <div id="skills" className="our__skills section">
       <div className="container">
         <div className="row justify-content-center ">
           <div className="col-lg-6">

@@ -13,21 +13,21 @@ export const navLinks = [
     },
     {
         id: 2,
+        title: "Skills",
+        active: '',
+        path: "#skills",
+    },
+    {
+        id: 4,
         title: "Education",
         active: '',
         path: "#education",
     },
     {
-        id: 4,
+        id: 5,
         title: "Projects",
         active: '',
         path: "#projects",
-    },
-    {
-        id: 5,
-        title: "Blog",
-        active: '',
-        path: "#blog",
     },
     {
         id: 6,
