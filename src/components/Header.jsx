@@ -58,7 +58,7 @@ function Header() {
         <div className="row">
           <div className="col-12">
             <nav className="main__nav d-flex  align-items-center justify-content-between">
-              <a href="index.html" className="logo">
+              <a href="index.html" className="logo p-3">
                 <img src="./assets/images/logo/logo.png" alt="jdev" />
               </a>
               {/* menu start  */}
