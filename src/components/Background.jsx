@@ -2,6 +2,13 @@ import React from "react";
 import { education, experience } from "../data";
 
 function Background() {
+  const Title = () => {
+    return (
+      <>
+         <span>Educaction</span> &amp; <span>Experience</span>
+      </>
+    );
+  };
   return (
     <div class="background section" id="education">
       <div class="container">
@@ -9,7 +16,7 @@ function Background() {
           <div class="col-lg-6">
             <div class="section__heading text-center sticky" data-aos="zoom-in">
               <h3>
-                <span>Offers</span> Service &amp; What We <span>Provide</span>
+                <span>Education</span> &amp; <span>Experience</span>
               </h3>
             </div>
           </div>

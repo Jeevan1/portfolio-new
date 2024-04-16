@@ -1,5 +1,6 @@
 import React from "react";
 import { about, interest } from "../data";
+import SectionHeading from "./SectionHeading";
 
 function About() {
   return (
@@ -13,6 +14,7 @@ function About() {
           </div>
           <div className="col-lg-8 " data-aos="fade-right">
             <div className="right__services" >
+              
               <div class="section__heading">
                 <h2>About Me</h2>
                 <p>
@@ -27,17 +29,6 @@ function About() {
                         <i className={`fa ${item.icon}`}></i>
                       </a>
                     </div>
-                    // <div key={index} className="col-lg-12 my-1">
-                    //   <div className="row">
-                    //     <div className="left col-2">
-                    //       <i className={`fa ${item.icon}`}></i>
-                    //       <span className="ps-2 pe-3">{item.title}</span>
-                    //     </div>
-                    //     <div className="right col-10">
-                    //       <span className="ps-3">{item.detail}</span>
-                    //     </div>
-                    //   </div>
-                    // </div>
                   ))}
                 </div>
                 <div className="interest">

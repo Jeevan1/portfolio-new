@@ -1,7 +1,15 @@
 import React from "react";
 import { skills } from "../data";
+import SectionHeading from "./SectionHeading";
 
 function Skills() {
+  const Title = () => {
+    return (
+      <>
+        Core <span>Skills</span> &amp; <span>Tech.</span>
+      </>
+    );
+  };
   return (
     <div id="skills" className="our__skills section">
       <div className="container">
@@ -19,17 +27,14 @@ function Skills() {
               className="right__skill d-flex flex-column"
               data-aos="fade-left"
             >
-              <div className="section__heading">
-                <h3>
-                  Core <span>Skills</span> &amp; <span>Tech.</span>
-                </h3>
-                <p>
-                  This section provides an overview of my core competencies and
+              <SectionHeading
+                title={<Title />}
+                description={`This section provides an overview of my core competencies and
                   proficiency in relevant technologies, demonstrating my
                   expertise and capabilities in various aspects of software
-                  development.
-                </p>
-              </div>
+                  development.`}
+              />
+
               <div className="progress__section">
                 {skills.map((skills, index) => (
                   <div className="progress__bar" key={skills.id}>

@@ -9,8 +9,7 @@ function Testimonials() {
           <div className="col-lg-6">
             <div className="section__heading text-center" data-aos="zoom-in">
               <h3>
-                See What Our Agency <span>Offers</span> Service &amp; What We{" "}
-                <span>Provide</span>
+                What <span>People</span> are <span>Saying</span>
               </h3>
             </div>
           </div>
