@@ -38,13 +38,18 @@ function Skills() {
               <div className="progress__section">
                 {skills.map((skills, index) => (
                   <div className="progress__bar" key={skills.id}>
-                    <h4>{skills.title}</h4>
-                    <span>{skills.percentage}%</span>
-                    <div
-                      className="filled__bar"
-                      style={{ width: `${skills.percentage}%` }}
-                    ></div>
-                    <div className="full__bar"></div>
+                      <div className="skill__image">
+                        <img src={skills.image} alt={skills.image} />
+                      </div>
+                      <div className="skill__content">
+                        <h4>{skills.title}</h4>
+                        <span>{skills.percentage}%</span>
+                        <div
+                          className="filled__bar"
+                          style={{ width: `${skills.percentage}%` }}
+                        ></div>
+                        <div className="full__bar"></div>
+                      </div>
                   </div>
                 ))}
               </div>

@@ -105,47 +105,56 @@ export const skills = [
   {
     id: 1,
     title: "HTML",
+    image: './assets/images/skills/html.png',
     percentage: 80,
   },
   {
     id: 2,
     title: "CSS",
+    image: './assets/images/skills/css.png',
     percentage: 80,
   },
   {
     id: 3,
     title: "Javascript",
+    image: './assets/images/skills/js.png',
     percentage: 70,
   },
   {
     id: 4,
     title: "SCSS",
+    image: './assets/images/skills/scss.png',
     percentage: 70,
   },
   {
     id: 5,
     title: "Bootstrap",
+    image: './assets/images/skills/bootstrap.png',
     percentage: 70,
   },
   {
     id: 6,
     title: "PHP",
+    image: './assets/images/skills/php.png',
     percentage: 50,
   },
   {
     id: 7,
     title: "Git/github",
+    image: './assets/images/skills/github.png',
     percentage: 60,
   },
   {
     id: 8,
     title: "React",
+    image: './assets/images/skills/react.png',
     percentage: 60,
   },
   {
     id: 9,
     title: "Redux",
-    percentage: 60,
+    image: './assets/images/skills/redux.png',
+    percentage: 50,
   },
 ];
 
